@@ -111,7 +111,6 @@
     <contextType xmi:id="_-Ck24CiHEe2KFqefI7oNXQ" confirmationNeeded="false" name="Default"/>
   </dataquality.analysis:Analysis>
   <orgomg.cwm.objectmodel.core:Dependency xmi:id="_CjoAQiiIEe2KFqefI7oNXQ" kind="Usage" supplier="_rbY5UCiHEe2KFqefI7oNXQ">
-    <client xsi:type="dataquality.reports:TdReport" href="../Reports/Dq_teste_guilherme_rep_0.1.rep#_CjoAMCiIEe2KFqefI7oNXQ"/>
     <client xsi:type="dataquality.reports:TdReport" href="../Reports/Dq_teste_guilherme_0.1.rep#_5ih8sCiTEe2KFqefI7oNXQ"/>
   </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_-CsLoCiHEe2KFqefI7oNXQ" name="Dq_teste_guilherme">
