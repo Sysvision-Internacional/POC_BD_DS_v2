@@ -23,7 +23,203 @@
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="DW" xmi:id="_DmzJ5iiHEe2KFqefI7oNXQ"/>
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="TDC_DEMO" xmi:id="_DmzJ5yiHEe2KFqefI7oNXQ"/>
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="Testing_CDC" xmi:id="_DmzJ6CiHEe2KFqefI7oNXQ"/>
-  <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="analytics_dev" xmi:id="_DmzJ6SiHEe2KFqefI7oNXQ"/>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="analytics_dev" xmi:id="_DmzJ6SiHEe2KFqefI7oNXQ">
+    <ownedElement id="_u9j_kCiHEe2KFqefI7oNXQ" label="address" name="address" tableType="TABLE" xmi:id="_vE6kwSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6kwiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u9qtQCiHEe2KFqefI7oNXQ" label="address_match" name="address_match" tableType="TABLE" xmi:id="_vE6kwyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6kxCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u9yCACiHEe2KFqefI7oNXQ" label="cadastro" name="cadastro" tableType="TABLE" xmi:id="_vE6kxSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6kxiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u95WwCiHEe2KFqefI7oNXQ" label="claim" name="claim" tableType="TABLE" xmi:id="_vE6kxyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6kyCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-AEcCiHEe2KFqefI7oNXQ" label="cliente_ativo" name="cliente_ativo" tableType="TABLE" xmi:id="_vE6kySiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6kyiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-HZMCiHEe2KFqefI7oNXQ" label="clientes" name="clientes" tableType="TABLE" xmi:id="_vE6kyyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6kzCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-Ot8CiHEe2KFqefI7oNXQ" label="clientes_orig" name="clientes_orig" tableType="TABLE" xmi:id="_vE6kzSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6kziiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-VboCiHEe2KFqefI7oNXQ" label="clientes_teste" name="clientes_teste" tableType="TABLE" xmi:id="_vE6kzyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k0CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-cwYCiHEe2KFqefI7oNXQ" label="clientes_teste2" name="clientes_teste2" tableType="TABLE" xmi:id="_vE6k0SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k0iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-jeECiHEe2KFqefI7oNXQ" label="clientes_teste7" name="clientes_teste7" tableType="TABLE" xmi:id="_vE6k0yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k1CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-qy0CiHEe2KFqefI7oNXQ" label="clientes_teste9" name="clientes_teste9" tableType="TABLE" xmi:id="_vE6k1SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k1iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-yHkCiHEe2KFqefI7oNXQ" label="clientes_teste_1" name="clientes_teste_1" tableType="TABLE" xmi:id="_vE6k1yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k2CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u-41QCiHEe2KFqefI7oNXQ" label="clientes_teste_bkp" name="clientes_teste_bkp" tableType="TABLE" xmi:id="_vE6k2SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k2iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_AKACiHEe2KFqefI7oNXQ" label="clientes_teste_ori" name="clientes_teste_ori" tableType="TABLE" xmi:id="_vE6k2yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k3CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_G3sCiHEe2KFqefI7oNXQ" label="contract" name="contract" tableType="TABLE" xmi:id="_vE6k3SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k3iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_NlYCiHEe2KFqefI7oNXQ" label="country" name="country" tableType="TABLE" xmi:id="_vE6k3yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k4CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_UTECiHEe2KFqefI7oNXQ" label="customer" name="customer" tableType="TABLE" xmi:id="_vE6k4SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k4iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_bn0CiHEe2KFqefI7oNXQ" label="customer_bkp" name="customer_bkp" tableType="TABLE" xmi:id="_vE6k4yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k5CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_iVgCiHEe2KFqefI7oNXQ" label="customer_clean_country_codes" name="customer_clean_country_codes" tableType="TABLE" xmi:id="_vE6k5SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k5iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_qRUCiHEe2KFqefI7oNXQ" label="customer_iban" name="customer_iban" tableType="TABLE" xmi:id="_vE6k5yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k6CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_xmECiHEe2KFqefI7oNXQ" label="customer_rep" name="customer_rep" tableType="TABLE" xmi:id="_vE6k6SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k6iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u_4TwCiHEe2KFqefI7oNXQ" label="customer_rep1" name="customer_rep1" tableType="TABLE" xmi:id="_vE6k6yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k7CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_u__BcCiHEe2KFqefI7oNXQ" label="customer_rep100" name="customer_rep100" tableType="TABLE" xmi:id="_vE6k7SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k7iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vAGWMCiHEe2KFqefI7oNXQ" label="customer_rep1000" name="customer_rep1000" tableType="TABLE" xmi:id="_vE6k7yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE6k8CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vAMc0CiHEe2KFqefI7oNXQ" label="customer_rep10000" name="customer_rep10000" tableType="TABLE" xmi:id="_vE6k8SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L0CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vAUYoCiHEe2KFqefI7oNXQ" label="customer_unique" name="customer_unique" tableType="TABLE" xmi:id="_vE7L0SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L0iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vAbtYCiHEe2KFqefI7oNXQ" label="de_para" name="de_para" tableType="TABLE" xmi:id="_vE7L0yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L1CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vAibECiHEe2KFqefI7oNXQ" label="de_para_ori" name="de_para_ori" tableType="TABLE" xmi:id="_vE7L1SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L1iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vAqW4CiHEe2KFqefI7oNXQ" label="dq_clientes" name="dq_clientes" tableType="TABLE" xmi:id="_vE7L1yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L2CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vAxroCiHEe2KFqefI7oNXQ" label="dq_clientes_10M" name="dq_clientes_10M" tableType="TABLE" xmi:id="_vE7L2SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L2iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vA4ZUCiHEe2KFqefI7oNXQ" label="dq_clientes_10M_masc2_di" name="dq_clientes_10M_masc2_di" tableType="TABLE" xmi:id="_vE7L2yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L3CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vA_uECiHEe2KFqefI7oNXQ" label="dq_clientes_10M_masc_di" name="dq_clientes_10M_masc_di" tableType="TABLE" xmi:id="_vE7L3SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L3iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vBGbwCiHEe2KFqefI7oNXQ" label="dq_clientes_1M" name="dq_clientes_1M" tableType="TABLE" xmi:id="_vE7L3yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L4CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vBO-oCiHEe2KFqefI7oNXQ" label="dq_clientes_1M_masc" name="dq_clientes_1M_masc" tableType="TABLE" xmi:id="_vE7L4SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L4iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vBVsUCiHEe2KFqefI7oNXQ" label="dq_clientes_1M_masc2" name="dq_clientes_1M_masc2" tableType="TABLE" xmi:id="_vE7L4yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L5CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vBcaACiHEe2KFqefI7oNXQ" label="dq_clientes_1M_masc3" name="dq_clientes_1M_masc3" tableType="TABLE" xmi:id="_vE7L5SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L5iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vBjuwCiHEe2KFqefI7oNXQ" label="dq_clientes_1M_masc_di" name="dq_clientes_1M_masc_di" tableType="TABLE" xmi:id="_vE7L5yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L6CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vBrqkCiHEe2KFqefI7oNXQ" label="dq_clientes_50k" name="dq_clientes_50k" tableType="TABLE" xmi:id="_vE7L6SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L6iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vByYQCiHEe2KFqefI7oNXQ" label="dq_clientes_50k_masc" name="dq_clientes_50k_masc" tableType="TABLE" xmi:id="_vE7L6yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L7CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vB5tACiHEe2KFqefI7oNXQ" label="dq_clientes_5M" name="dq_clientes_5M" tableType="TABLE" xmi:id="_vE7L7SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L7iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vCBBwCiHEe2KFqefI7oNXQ" label="dq_clientes_5M_masc" name="dq_clientes_5M_masc" tableType="TABLE" xmi:id="_vE7L7yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L8CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vCHvcCiHEe2KFqefI7oNXQ" label="dq_clientes_5M_masc_di" name="dq_clientes_5M_masc_di" tableType="TABLE" xmi:id="_vE7L8SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L8iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vCPEMCiHEe2KFqefI7oNXQ" label="dq_clientes_ale" name="dq_clientes_ale" tableType="TABLE" xmi:id="_vE7L8yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L9CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vCXAACiHEe2KFqefI7oNXQ" label="dq_clientes_atu" name="dq_clientes_atu" tableType="TABLE" xmi:id="_vE7L9SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L9iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vCeUwCiHEe2KFqefI7oNXQ" label="dq_clientes_cpf_unique" name="dq_clientes_cpf_unique" tableType="TABLE" xmi:id="_vE7L9yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L-CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vClpgCiHEe2KFqefI7oNXQ" label="dq_clientes_masc" name="dq_clientes_masc" tableType="TABLE" xmi:id="_vE7L-SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L-iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vCrwICiHEe2KFqefI7oNXQ" label="dq_clientes_masl" name="dq_clientes_masl" tableType="TABLE" xmi:id="_vE7L-yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L_CiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vCzE4CiHEe2KFqefI7oNXQ" label="dq_crm" name="dq_crm" tableType="TABLE" xmi:id="_vE7L_SiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7L_iiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vC6ZoCiHEe2KFqefI7oNXQ" label="dq_pedidos" name="dq_pedidos" tableType="TABLE" xmi:id="_vE7L_yiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MACiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vDCVcCiHEe2KFqefI7oNXQ" label="dq_produtos" name="dq_produtos" tableType="TABLE" xmi:id="_vE7MASiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MAiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vDJDICiHEe2KFqefI7oNXQ" label="predict" name="predict" tableType="TABLE" xmi:id="_vE7MAyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MBCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vDQX4CiHEe2KFqefI7oNXQ" label="produtos" name="produtos" tableType="TABLE" xmi:id="_vE7MBSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MBiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vDXsoCiHEe2KFqefI7oNXQ" label="tempo" name="tempo" tableType="TABLE" xmi:id="_vE7MByiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MCCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vDfBYCiHEe2KFqefI7oNXQ" label="test" name="test" tableType="TABLE" xmi:id="_vE7MCSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MCiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vDlvECiHEe2KFqefI7oNXQ" label="teste_cpf" name="teste_cpf" tableType="TABLE" xmi:id="_vE7MCyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MDCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vDtD0CiHEe2KFqefI7oNXQ" label="train" name="train" tableType="TABLE" xmi:id="_vE7MDSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MDiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vD4qACiHEe2KFqefI7oNXQ" label="train1" name="train1" tableType="TABLE" xmi:id="_vE7MDyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MECiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vEBM4CiHEe2KFqefI7oNXQ" label="vendas" name="vendas" tableType="TABLE" xmi:id="_vE7MESiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MEiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vEKW0CiHEe2KFqefI7oNXQ" label="vendas1" name="vendas1" tableType="TABLE" xmi:id="_vE7MEyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MFCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vES5sCiHEe2KFqefI7oNXQ" label="vendas_teste" name="vendas_teste" tableType="TABLE" xmi:id="_vE7MFSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MFiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vEcDoCiHEe2KFqefI7oNXQ" label="vendas_teste7" name="vendas_teste7" tableType="TABLE" xmi:id="_vE7MFyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MGCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vEj_cCiHEe2KFqefI7oNXQ" label="vendas_teste_bkp" name="vendas_teste_bkp" tableType="TABLE" xmi:id="_vE7MGSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MGiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vErUMCiHEe2KFqefI7oNXQ" label="vendas_teste_bkp1" name="vendas_teste_bkp1" tableType="TABLE" xmi:id="_vE7MGyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MHCiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vEz3ECiHEe2KFqefI7oNXQ" label="vendas_teste_ori" name="vendas_teste_ori" tableType="TABLE" xmi:id="_vE7MHSiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MHiiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+    <ownedElement id="_vE6kwCiHEe2KFqefI7oNXQ" label="vendas_teste_semfk" name="vendas_teste_semfk" tableType="TABLE" xmi:id="_vE7MHyiHEe2KFqefI7oNXQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="" xmi:id="_vE7MICiHEe2KFqefI7oNXQ"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="analytics_qa" xmi:id="_DmzJ6iiHEe2KFqefI7oNXQ"/>
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="classicmodels" xmi:id="_Dmzw8CiHEe2KFqefI7oNXQ"/>
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="datacatalog_cloud_dev" xmi:id="_Dmzw8SiHEe2KFqefI7oNXQ"/>
@@ -169,13 +365,13 @@
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="talend_teste" xmi:id="_DmzxASiHEe2KFqefI7oNXQ"/>
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="teste" xmi:id="_DmzxAiiHEe2KFqefI7oNXQ"/>
   <orgomg.cwm.resource.relational:Catalog dataManager="_DdyX0CiHEe2KFqefI7oNXQ" name="teste_Replica" xmi:id="_DmzxAyiHEe2KFqefI7oNXQ"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2e52f388-f7eb-4c36-9c46-eb1a071c6c94"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>USb58F0L8VCKVKR3qiZTnKA5kL2kuBKAs0qip3s1yw7yRHGeqoebd8h6Efnas1TeHgZvS72v49BX&#13;
-e2K2mLe3mA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0e0fd6c5-7bc3-4063-8e69-492b5938129b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PiJktqo7aWlE0zAWFQTA8o+Efq68J4gPvIoIYj4IIP6qu77t1EjnPB9ZtzYTiiyyIMwWkUPAxz2o&#13;
-oECSiYHiDg==</DigestValue></Reference></SignedInfo><SignatureValue>BBM3bpDAR31zEG+daKHwc8kiVQZGQF3YF4sPHtnfjrl8DK0DLtlD4EqzrU9JRHfRIj/+9I3B0fiZ&#13;
-J5lV4d05I0tN0htQh+a6SiKYc8LzlGaO2T+TmpfkYY1bel6oFGPT8IC0vaajrCtl3yigYE5HH2h5&#13;
-o+Cs8XCDDDs7p88y0HAOWTsD/oEQLf3lxUhV+mXy6BNqF2zPlbGfmjlOBp7tmkmzGNgeGs3QIdKn&#13;
-RQxv3vEpcBmAv2mslXMgLNh9pPWPHIr5kXrktNTRIrEwbeZ5hVUdBKBr5FXq21kwR0dHbi8weAAO&#13;
-xXvWvH8GsrOMT5jsSZfQ3/6f3v9LmIXZTNHvnw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c677bb24-4905-41c3-9d86-3de473a0c7cf"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DbGhUb/+SwCJJ5UGcet/3QVgU+gCDDIsV6/FKfswax0X9Fi7gPS8a/v5w6Z7a/ixI1Dh+KbGYnR2&#13;
+LCOFuW46+Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bf113b5f-c530-48a7-941d-92e2e2b03c90"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>s+R6iHGFn/FwWM0ACpGdyO/c2WsifqzIuNi2fkTZOd8IYnSpGhg47BHQZGs++BqFbpNB+Y8vNF95&#13;
+blG/Fus/RQ==</DigestValue></Reference></SignedInfo><SignatureValue>LrH4/Ga7y7r5X9z6KO7djET658FWUtvHGP/PyIbq/vdiepO16PTfsNrGXWaxwdPv7oE3jHjXfG1Q&#13;
+xvaRnDIAYazqbFZkkxANjAHqxnCxXhpaYu2v3hnTMuMGF2SovLVP1y0cdiEdRKGXcizdpjTPdfor&#13;
+/Dxzr79KebAzviSmcAVJJevcdph0Ypo/ZN6lt2kJ76OeHDmy7f04/JKWZDL5wxaXSqs0NndWzxCr&#13;
+svGr/CcNI0O9pgGQl7hTq/5f6L+UT9SL4UP48RcH3rx1FcrATRs/vEe9r/+9RcHPeaCiBnJEh5yS&#13;
+tIT8Dm7/Z23JPrQjYi/jnskkdSyqQ5HjhLCeNQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -197,4 +393,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0e0fd6c5-7bc3-4063-8e69-492b5938129b" Target="#_2e52f388-f7eb-4c36-9c46-eb1a071c6c94"><Timestamp>2022-08-30 17:14:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bf113b5f-c530-48a7-941d-92e2e2b03c90" Target="#_c677bb24-4905-41c3-9d86-3de473a0c7cf"><Timestamp>2022-08-30 17:18:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
