@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/guigd/workspace_sysvision/in.csv&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:k1V0U7n5f36SEXNVB4DRCnd7KajWCrjqohgoKCUy"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/guigd/workspace_sysvision/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:h8gdXh6qZbxdA++vPtQCLdNWt+bsGSdxE6UQBxXV"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_k3haYCfcEe2JmJaZRGS2vQ" name="DQTechnical"/>
+    <routinesParameter id="_k3GjoCfcEe2JmJaZRGS2vQ" name="DataMasking"/>
+    <routinesParameter id="_k2JhYCfcEe2JmJaZRGS2vQ" name="DataOperation"/>
+    <routinesParameter id="_k3Q7sCfcEe2JmJaZRGS2vQ" name="DataQualityDependencies"/>
+    <routinesParameter id="_k3LcICfcEe2JmJaZRGS2vQ" name="DataQuality"/>
+    <routinesParameter id="_k3dI8CfcEe2JmJaZRGS2vQ" name="DqStringHandling"/>
+    <routinesParameter id="_k2PA8CfcEe2JmJaZRGS2vQ" name="Mathematical"/>
+    <routinesParameter id="_k2VuoCfcEe2JmJaZRGS2vQ" name="Numeric"/>
+    <routinesParameter id="_k2hU0CfcEe2JmJaZRGS2vQ" name="Relational"/>
+    <routinesParameter id="_k0t-ACfcEe2JmJaZRGS2vQ" name="SQLike"/>
+    <routinesParameter id="_k2nbcCfcEe2JmJaZRGS2vQ" name="StringHandling"/>
+    <routinesParameter id="_k2sT8CfcEe2JmJaZRGS2vQ" name="TalendDataGenerator"/>
+    <routinesParameter id="_k22E8CfcEe2JmJaZRGS2vQ" name="TalendDate"/>
+    <routinesParameter id="_k3BEECfcEe2JmJaZRGS2vQ" name="TalendStringUtil"/>
+    <routinesParameter id="_k269cCfcEe2JmJaZRGS2vQ" name="TalendString"/>
+  </parameters>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.150.70.229&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;talend_dq&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;talend&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TfBsXA4EGjLTKE15OeOIhqShEPDUMxKkGOKmHK/AlyI35APY"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT V_IND_VALUE.REP_LABEL,V_IND_VALUE.AN_LABEL,V_IND_VALUE.IND_LABEL,  CASE WHEN IND_VALUE.INDV_VALUE_TYPE_INDICATOR='I' THEN (CASE WHEN IND_DEN.IND_UUID='_ccIR4BF2Ed2PKb6nEJEvhw' THEN (CASE WHEN IND_VALUE.INDV_ROW_COUNT=0 THEN 0.0 ELSE IND_VALUE.INDV_INT_VALUE/IND_VALUE.INDV_ROW_COUNT END)  ELSE IND_VALUE.INDV_INT_VALUE  END ) ELSE (CASE WHEN INDV_VALUE_TYPE_INDICATOR='R' THEN     (CASE WHEN IND_DEN.IND_UUID='_ccI48RF2Ed2PKb6nEJEvhw' THEN (CASE WHEN IND_VALUE.INDV_ROW_COUNT=0 THEN 0.0 ELSE IND_VALUE.INDV_REAL_VALUE/IND_VALUE.INDV_ROW_COUNT END)         ELSE IND_VALUE.INDV_REAL_VALUE END)  ELSE 0  END)  END AS INDV_INT_VALUE, case when V_IND_VALUE.ELT_CATALOG_NAME like 'N/A (TDQ)' then 'N/A' else V_IND_VALUE.ELT_CATALOG_NAME end as ELT_CATALOG_NAME,case when V_IND_VALUE.ELT_SCHEMA_NAME like 'N/A (TDQ)' then 'N/A' else V_IND_VALUE.ELT_SCHEMA_NAME end as ELT_SCHEMA_NAME,case when V_IND_VALUE.ELT_TABLE_NAME like 'N/A (TDQ)' then 'N/A' else V_IND_VALUE.ELT_TABLE_NAME end as ELT_TABLE_NAME,case when V_IND_VALUE.ELT_COLUMN_NAME like 'N/A (TDQ)' then 'N/A' else V_IND_VALUE.ELT_COLUMN_NAME end as ELT_COLUMN_NAME,case when V_IND_VALUE.INO_REGEXP like 'NULL%' then 'N/A' else V_IND_VALUE.INO_REGEXP end AS INO_REGEXP,IND_VALUE.AN_RUNTIME,IND_VALUE.INDV_DTHRESH_OK,IND_VALUE.INDV_ITHRESH_OK,IND_VALUE.INDV_ITHRESH_PERC_OK,IF(IND_VALUE.INDV_ITHRESH_LOW is NULL,'N/A',IND_VALUE.INDV_ITHRESH_LOW) AS INDV_ITHRESH_LOW,IF(IND_VALUE.INDV_ITHRESH_HI is NULL,'N/A',IND_VALUE.INDV_ITHRESH_HI) AS INDV_ITHRESH_HI,IF(IND_VALUE.INDV_ITHRESH_PERC_LOW is NULL,'N/A',concat(IND_VALUE.INDV_ITHRESH_PERC_LOW*100,'%')) AS INDV_ITHRESH_PERC_LOW,IF(IND_VALUE.INDV_ITHRESH_PERC_HI is NULL,'N/A',concat(IND_VALUE.INDV_ITHRESH_PERC_HI*100,'%')) AS INDV_ITHRESH_PERC_HI FROM TDQ_V_IND_HISTO V_IND_VALUE, TDQ_INDICATOR_VALUE IND_VALUE, TDQ_INDICATOR_DEFINITION IND_DEN,TDQ_ANALYZED_ELEMENT ANA_ELE, TDQ_INDICATOR_OPTIONS OPT WHERE V_IND_VALUE.RUN_TIME=IND_VALUE.AN_RUNTIME AND V_IND_VALUE.INO_REGEXP=OPT.INO_REGEXP AND IND_VALUE.OPTION_PK=OPT.INO_PK AND V_IND_VALUE.IND_UUID= IND_DEN.IND_UUID AND IND_DEN.IND_PK=IND_VALUE.INDICATOR_PK  AND ANA_ELE.ELT_PK=IND_VALUE.ELEMENT_PK AND V_IND_VALUE.ELT_UUID=ANA_ELE.ELT_UUID AND (IND_VALUE.INDV_DTHRESH_OK='N' OR IND_VALUE.INDV_ITHRESH_OK='N' OR IND_VALUE.INDV_ITHRESH_PERC_OK='N') AND (V_IND_VALUE.REP_UUID='_5ih8sCiTEe2KFqefI7oNXQ') AND IND_VALUE.REP_RUNTIME in (select max(rep_runtime) from TDQ_INDICATOR_VALUE join TDQ_ANALYSIS ON TDQ_ANALYSIS.AN_PK=TDQ_INDICATOR_VALUE.ANALYSIS_PK AND TDQ_ANALYSIS.REP_UUID='_5ih8sCiTEe2KFqefI7oNXQ')&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;characterEncoding=UTF8&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1"/>
+  </node>
+  <node componentName="tThresholdViolationAlert" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tThresholdViolationAlert_1"/>
+    <elementParameter field="COLUMN_LIST" name="OUTFIELD" value="mailField"/>
+    <elementParameter field="MEMO" name="ADDITIONINFO" value="&quot;&lt;p style=\&quot;font:italic normal 11pt/14pt Times, serif\&quot;&gt;&quot;+row1.AN_RUNTIME+&quot;: The analysis &quot;+row1.AN_LABEL+&quot; contains the following violations:&lt;br&gt;&quot;+ (row1.INO_REGEXP.equals(&quot;N/A&quot;) ? (&quot;Indicator &lt;font color=\&quot;#ff0000\&quot;&gt;&quot; + row1.IND_LABEL): (&quot;Pattern &lt;font color=\&quot;#ff0000\&quot;&gt;&quot; + row1.INO_REGEXP))+&quot;&lt;/font&gt; of value &quot;+row1.INDV_INT_VALUE+&quot; does not respect the defined threshold &quot;+ ((row1.INDV_DTHRESH_OK.equals(&quot;N&quot;) || row1.INDV_ITHRESH_OK.equals(&quot;N&quot;)) ? (&quot;[&quot; + row1.INDV_ITHRESH_LOW+ &quot;,&quot;+ row1.INDV_ITHRESH_HI+ &quot;]&quot;):&quot;&quot;)+ &quot; &quot;+ (row1.INDV_ITHRESH_PERC_OK.equals(&quot;N&quot;) ? (&quot;[&quot; + row1.INDV_ITHRESH_PERC_LOW + &quot;,&quot; + row1.INDV_ITHRESH_PERC_HI + &quot;]&quot;): &quot;&quot;)+ (&quot;N/A&quot;.equals(row1.ELT_COLUMN_NAME) ? &quot;&quot; : &quot; on the column &lt;font color=\&quot;#ff0000\&quot;&gt;&quot; + row1.ELT_COLUMN_NAME+ &quot;&lt;/font&gt;&quot;)+ &quot; in table &lt;font color=\&quot;#ff0000\&quot;&gt;&quot;+row1.ELT_TABLE_NAME+&quot;&lt;/font&gt; in database&lt;&quot;+row1.ELT_SCHEMA_NAME+&quot; or &quot;+row1.ELT_CATALOG_NAME+&quot;&gt;&lt;/p&gt;&quot;"/>
+    <elementParameter field="TEXT" name="SUFFIXSEPARATOR" value="&quot;:&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&lt;br/&gt;&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;&lt;p/&gt;&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tThresholdViolationAlert_1">
+      <column comment="" defaultValue="" key="false" length="-1" name="mailField" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;receiver@example.com&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;send@example.com&quot;"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" show="false" value="&quot;sender&quot;"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="BCC" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="&quot;TDQ threshold violation alert&quot;"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="row2.mailField"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;smtp.provider.com&quot;"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="25"/>
+    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:BvOu3IDdFD4QapULL8O+OosB64nDyYPpH7wH2BJ0USmC2+0yNhs="/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="html"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSendMail_1">
+      <column comment="" defaultValue="" key="false" length="-1" name="mailField" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tThresholdViolationAlert_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tThresholdViolationAlert_1" offsetLabelX="0" offsetLabelY="0" source="tThresholdViolationAlert_1" target="tSendMail_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <note opaque="true" posX="128" posY="32" sizeHeight="100" sizeWidth="600" text="This job has been generated from report &quot;Dq_teste_guilherme_rep&quot; by developer4@sysvision.com.br at 08/30/2022 15:46.&#10;&#10;This job sends an email that lists all indicator threshold violations.">
+    <elementParameter field="TEXT" name="NOTE_FONT" value="Dotum"/>
+  </note>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9888dcf9-9011-45c1-abeb-2ab43cfd1dcb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OEFpQuExoMyT+pVJ04Xua0nJ9Hb+XAFUWZsAStX/lRdaYhEPD1XykdD6Xf5juBJs8AFnbDyP1Zc6&#13;
+Hopdijp8ZQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1520cbe1-e154-4565-be1d-d2cc35e3eec5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tO8/7Os/lC6aE3qgfRaxRkHKXT84C7qMBbAAu233rHa7mRNMJnGfjBzUQFY0W93QvsMY2uNP5meG&#13;
+sZqp9/LXNg==</DigestValue></Reference></SignedInfo><SignatureValue>PaeQRvgH8YiBa3hlSqv5PiHiItnNnT5sOCWgZ8Hc6ks/gmEtwfnCQnNV5MNOyzJT9JIjhjInwu22&#13;
+OcdMObhH7A/Q9IuCMyjqb6OSoOoqzEQdhL63Tx23mHtIoe14aaF7LaUPp2u5sIE3lEiI5pSt5sG0&#13;
+hRpEs+Lc/SDE73pP+udF4s8SmTepV1Q7UAkE0vqbNqs/D28Gmp+uoSlHgGK/VaZRi7pKT+C83wkU&#13;
++wg500aTSvPQt7muc3dOxgkME3HxUMkhHeinnW/U+3hiWO4OBXH8xI39nIso2KrGs8vInvqCeRru&#13;
+uKc2oIYViAKgGjk2MgawCsg8Z3y4lzl/Xbs01Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1520cbe1-e154-4565-be1d-d2cc35e3eec5" Target="#_9888dcf9-9011-45c1-abeb-2ab43cfd1dcb"><Timestamp>2022-08-30 18:46:28</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
