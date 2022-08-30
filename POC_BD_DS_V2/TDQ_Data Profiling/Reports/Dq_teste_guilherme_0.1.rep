@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_5ih8sCiTEe2KFqefI7oNXQ" name="Dq_teste_guilherme" creationDate="2022-08-30T15:45:19.942-0300">
+  <clientDependency href="../Analyses/Dq_teste_guilherme_0.1.ana#_CjoAQiiIEe2KFqefI7oNXQ"/>
+  <taggedValue xmi:id="_5ih8sSiTEe2KFqefI7oNXQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_5ih8siiTEe2KFqefI7oNXQ" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_5ih8syiTEe2KFqefI7oNXQ" tag="REP_DBINFO_DBVERSION" value="MYSQL_5"/>
+  <taggedValue xmi:id="_5ih8tCiTEe2KFqefI7oNXQ" tag="REP_DBINFO_HOST" value="10.150.70.229"/>
+  <taggedValue xmi:id="_5ih8tSiTEe2KFqefI7oNXQ" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_5ih8tiiTEe2KFqefI7oNXQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_5ih8tyiTEe2KFqefI7oNXQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_5ih8uCiTEe2KFqefI7oNXQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_5ih8uSiTEe2KFqefI7oNXQ" tag="REP_DBINFO_USER" value="talend"/>
+  <taggedValue xmi:id="_5ih8uiiTEe2KFqefI7oNXQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:WxDdTXUHrOGoluE5I07E2oFefGMF03Lo7jV3XJgi6qRrnQ=="/>
+  <taggedValue xmi:id="_5ih8uyiTEe2KFqefI7oNXQ" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_5ih8vCiTEe2KFqefI7oNXQ" tag="REP_DBINFO_URL" value="jdbc:mysql://10.150.70.229:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_5ih8vSiTEe2KFqefI7oNXQ" tag="REP_DBINFO_DRIVER" value="org.gjt.mm.mysql.Driver"/>
+  <taggedValue xmi:id="_5ih8viiTEe2KFqefI7oNXQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_5ih8vyiTEe2KFqefI7oNXQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_5ih8wCiTEe2KFqefI7oNXQ" tag="Author" value="developer4@sysvision.com.br"/>
+  <analysisMap xmi:id="_5ih8wSiTEe2KFqefI7oNXQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Dq_teste_guilherme_0.1.ana#_rbY5UCiHEe2KFqefI7oNXQ"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
