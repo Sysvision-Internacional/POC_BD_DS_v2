@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_CjoAMCiIEe2KFqefI7oNXQ" name="Dq_teste_guilherme" creationDate="2022-08-30T14:20:26.510-0300">
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_CjoAMCiIEe2KFqefI7oNXQ" name="Dq_teste_guilherme_rep" creationDate="2022-08-30T14:20:26.510-0300" defaultContext="Default">
   <clientDependency href="../Analyses/Dq_teste_guilherme_0.1.ana#_CjoAQiiIEe2KFqefI7oNXQ"/>
   <taggedValue xmi:id="_CjoAMSiIEe2KFqefI7oNXQ" tag="OutputFolder" value=""/>
   <taggedValue xmi:id="_CjoAMiiIEe2KFqefI7oNXQ" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
@@ -10,14 +10,23 @@
   <taggedValue xmi:id="_CjoANyiIEe2KFqefI7oNXQ" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
   <taggedValue xmi:id="_CjoAOCiIEe2KFqefI7oNXQ" tag="REP_DBINFO_SCHEMA" value=""/>
   <taggedValue xmi:id="_CjoAOSiIEe2KFqefI7oNXQ" tag="REP_DBINFO_USER" value="talend"/>
-  <taggedValue xmi:id="_CjoAOiiIEe2KFqefI7oNXQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:vlqzWQAS4JacdKB2Uw27IXXp5Vy1KoX7y6U9vjPskkm+Kg=="/>
+  <taggedValue xmi:id="_CjoAOiiIEe2KFqefI7oNXQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:k+OD+AKkbr0MTWxiwjGi2PsKZ567OoazVsIgDQif8CMeYw=="/>
   <taggedValue xmi:id="_CjoAOyiIEe2KFqefI7oNXQ" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
   <taggedValue xmi:id="_CjoAPCiIEe2KFqefI7oNXQ" tag="REP_DBINFO_URL" value="jdbc:mysql://10.150.70.229:3306/talend_dq?characterEncoding=UTF8"/>
   <taggedValue xmi:id="_CjoAPSiIEe2KFqefI7oNXQ" tag="REP_DBINFO_DRIVER" value="org.gjt.mm.mysql.Driver"/>
   <taggedValue xmi:id="_CjoAPiiIEe2KFqefI7oNXQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
   <taggedValue xmi:id="_CjoAPyiIEe2KFqefI7oNXQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
   <taggedValue xmi:id="_CjoAQCiIEe2KFqefI7oNXQ" tag="Author" value="developer4@sysvision.com.br"/>
+  <taggedValue xmi:id="_FrcswCiIEe2KFqefI7oNXQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_FrdT0CiIEe2KFqefI7oNXQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_FrdT0SiIEe2KFqefI7oNXQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_FrdT0iiIEe2KFqefI7oNXQ" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_FrdT0yiIEe2KFqefI7oNXQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_FrdT1CiIEe2KFqefI7oNXQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_FrdT1SiIEe2KFqefI7oNXQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_FrdT1yiIEe2KFqefI7oNXQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
   <analysisMap xmi:id="_CjoAQSiIEe2KFqefI7oNXQ" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/Dq_teste_guilherme_0.1.ana#_rbY5UCiHEe2KFqefI7oNXQ"/>
   </analysisMap>
+  <context xmi:id="_FrdT1iiIEe2KFqefI7oNXQ" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
