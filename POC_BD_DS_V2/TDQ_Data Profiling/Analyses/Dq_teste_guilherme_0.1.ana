@@ -16,7 +16,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/MySQL_Sysvision_0.1.item#_xi_wyCiHEe2KFqefI7oNXQ"/>
     </context>
     <results xmi:id="_rbY5VyiHEe2KFqefI7oNXQ">
-      <resultMetadata xmi:id="_rbY5WCiHEe2KFqefI7oNXQ" executionDate="2022-08-30T15:44:34.227-0300" executionDuration="1019" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+      <resultMetadata xmi:id="_rbY5WCiHEe2KFqefI7oNXQ" executionDate="2022-08-30T15:44:58.807-0300" executionDuration="1143" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4" outThreshold="true"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_-Cld8SiHEe2KFqefI7oNXQ" count="1003" computed="true">
         <parameters xmi:id="_-Cld8iiHEe2KFqefI7oNXQ"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/MySQL_Sysvision_0.1.item#_xi_wyCiHEe2KFqefI7oNXQ"/>
@@ -88,8 +88,8 @@
         <parameters xmi:id="_-Cld_CiHEe2KFqefI7oNXQ">
           <indicatorValidDomain xmi:id="_wrLhgCiTEe2KFqefI7oNXQ" name="Indicator threshold">
             <ranges xmi:id="_wrMIkCiTEe2KFqefI7oNXQ" name="Value Threshold">
-              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_wrMIkSiTEe2KFqefI7oNXQ" value="0"/>
-              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_wrMIkiiTEe2KFqefI7oNXQ" value="5"/>
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_1wkG8CiTEe2KFqefI7oNXQ" value="0"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_1wkG8SiTEe2KFqefI7oNXQ" value="3"/>
             </ranges>
           </indicatorValidDomain>
         </parameters>
