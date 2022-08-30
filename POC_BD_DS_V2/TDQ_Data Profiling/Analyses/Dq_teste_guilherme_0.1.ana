@@ -16,7 +16,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/MySQL_Sysvision_0.1.item#_xi_wyCiHEe2KFqefI7oNXQ"/>
     </context>
     <results xmi:id="_rbY5VyiHEe2KFqefI7oNXQ">
-      <resultMetadata xmi:id="_rbY5WCiHEe2KFqefI7oNXQ" executionDate="2022-08-30T14:22:01.348-0300" executionDuration="2670" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <resultMetadata xmi:id="_rbY5WCiHEe2KFqefI7oNXQ" executionDate="2022-08-30T15:44:34.227-0300" executionDuration="1019" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_-Cld8SiHEe2KFqefI7oNXQ" count="1003" computed="true">
         <parameters xmi:id="_-Cld8iiHEe2KFqefI7oNXQ"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/MySQL_Sysvision_0.1.item#_xi_wyCiHEe2KFqefI7oNXQ"/>
@@ -85,7 +85,14 @@
         </builtInIndicatorDefinition>
       </indicators>
       <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_-Cld-yiHEe2KFqefI7oNXQ" count="1003" computed="true" blankCount="4">
-        <parameters xmi:id="_-Cld_CiHEe2KFqefI7oNXQ"/>
+        <parameters xmi:id="_-Cld_CiHEe2KFqefI7oNXQ">
+          <indicatorValidDomain xmi:id="_wrLhgCiTEe2KFqefI7oNXQ" name="Indicator threshold">
+            <ranges xmi:id="_wrMIkCiTEe2KFqefI7oNXQ" name="Value Threshold">
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_wrMIkSiTEe2KFqefI7oNXQ" value="0"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_wrMIkiiTEe2KFqefI7oNXQ" value="5"/>
+            </ranges>
+          </indicatorValidDomain>
+        </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/MySQL_Sysvision_0.1.item#_xi_wyCiHEe2KFqefI7oNXQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_-rR1pSiHEe2KFqefI7oNXQ" body="SELECT COUNT(`Email`) FROM `analytics_dev`.`customer` WHERE TRIM(`Email`) = '' " language="MySQL"/>
