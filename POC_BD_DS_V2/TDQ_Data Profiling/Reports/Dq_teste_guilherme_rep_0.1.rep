@@ -28,5 +28,6 @@
   <analysisMap xmi:id="_CjoAQSiIEe2KFqefI7oNXQ" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/Dq_teste_guilherme_0.1.ana#_rbY5UCiHEe2KFqefI7oNXQ"/>
   </analysisMap>
+  <ExecInformations xmi:id="_RHWIUCiIEe2KFqefI7oNXQ" executionDate="2022-08-30T14:22:01.346-0300" executionDuration="3411" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
   <context xmi:id="_FrdT1iiIEe2KFqefI7oNXQ" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
