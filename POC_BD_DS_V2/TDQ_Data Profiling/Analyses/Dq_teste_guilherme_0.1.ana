@@ -16,7 +16,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/MySQL_Sysvision_0.1.item#_xi_wyCiHEe2KFqefI7oNXQ"/>
     </context>
     <results xmi:id="_rbY5VyiHEe2KFqefI7oNXQ">
-      <resultMetadata xmi:id="_rbY5WCiHEe2KFqefI7oNXQ" executionDate="2022-08-31T15:39:57.719-0300" executionDuration="1139" message="" executionNumber="6" lastRunOk="true" lastExecutionNumberOk="6" outThreshold="true"/>
+      <resultMetadata xmi:id="_rbY5WCiHEe2KFqefI7oNXQ" executionDate="2022-08-31T16:06:43.244-0300" executionDuration="1195" message="" executionNumber="7" lastRunOk="true" lastExecutionNumberOk="7" outThreshold="true"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_-Cld8SiHEe2KFqefI7oNXQ" count="1003" computed="true">
         <parameters xmi:id="_-Cld8iiHEe2KFqefI7oNXQ">
           <indicatorValidDomain xmi:id="_5OlzUClfEe2KFqefI7oNXQ" name="Indicator threshold">
