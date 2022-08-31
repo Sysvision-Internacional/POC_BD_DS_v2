@@ -28,6 +28,6 @@
   <analysisMap xmi:id="_5ih8wSiTEe2KFqefI7oNXQ" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/Dq_teste_guilherme_0.1.ana#_rbY5UCiHEe2KFqefI7oNXQ"/>
   </analysisMap>
-  <ExecInformations xmi:id="_P43FgCiUEe2KFqefI7oNXQ" executionDate="2022-08-30T15:47:48.489-0300" executionDuration="1999" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <ExecInformations xmi:id="_P43FgCiUEe2KFqefI7oNXQ" executionDate="2022-08-31T15:39:57.716-0300" executionDuration="1885" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
   <context xmi:id="_8qIm1CiTEe2KFqefI7oNXQ" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
