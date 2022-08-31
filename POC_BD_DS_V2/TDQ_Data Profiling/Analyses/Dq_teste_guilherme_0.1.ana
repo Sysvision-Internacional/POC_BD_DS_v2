@@ -18,7 +18,14 @@
     <results xmi:id="_rbY5VyiHEe2KFqefI7oNXQ">
       <resultMetadata xmi:id="_rbY5WCiHEe2KFqefI7oNXQ" executionDate="2022-08-31T15:39:57.719-0300" executionDuration="1139" message="" executionNumber="6" lastRunOk="true" lastExecutionNumberOk="6" outThreshold="true"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_-Cld8SiHEe2KFqefI7oNXQ" count="1003" computed="true">
-        <parameters xmi:id="_-Cld8iiHEe2KFqefI7oNXQ"/>
+        <parameters xmi:id="_-Cld8iiHEe2KFqefI7oNXQ">
+          <indicatorValidDomain xmi:id="_5OlzUClfEe2KFqefI7oNXQ" name="Indicator threshold">
+            <ranges xmi:id="_5OlzUSlfEe2KFqefI7oNXQ" name="Value Threshold">
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_5OlzUilfEe2KFqefI7oNXQ" value="0"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_5OlzUylfEe2KFqefI7oNXQ" value="1003"/>
+            </ranges>
+          </indicatorValidDomain>
+        </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/MySQL_Sysvision_0.1.item#_xi_wyCiHEe2KFqefI7oNXQ"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_-rR1oCiHEe2KFqefI7oNXQ" body="SELECT COUNT(*) FROM `analytics_dev`.`customer` " language="MySQL"/>
