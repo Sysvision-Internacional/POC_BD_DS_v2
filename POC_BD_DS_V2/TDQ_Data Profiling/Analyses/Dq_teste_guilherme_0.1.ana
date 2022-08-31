@@ -21,8 +21,8 @@
         <parameters xmi:id="_-Cld8iiHEe2KFqefI7oNXQ">
           <indicatorValidDomain xmi:id="_5OlzUClfEe2KFqefI7oNXQ" name="Indicator threshold">
             <ranges xmi:id="_5OlzUSlfEe2KFqefI7oNXQ" name="Value Threshold">
-              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_5OlzUilfEe2KFqefI7oNXQ" value="0"/>
-              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_5OlzUylfEe2KFqefI7oNXQ" value="1003"/>
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_8xaZ0ClfEe2KFqefI7oNXQ" value="0"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_8xaZ0SlfEe2KFqefI7oNXQ" value="1000"/>
             </ranges>
           </indicatorValidDomain>
         </parameters>
